@@ -50,7 +50,7 @@ module.exports = {
       //css
       {
         test: /\.css$/,
-        user: [
+        use: [
           {
             loader: 'style-loader',
             options: { sourceMap: true }
